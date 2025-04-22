@@ -11,7 +11,9 @@ import OpportunityDetail from "./Opportunities/OpportunityDetail.jsx"
 import Login from "./Login/Login.jsx"
 import Register from "./Register/Register.jsx"
 
-import './App.css'
+import './index.css'
+import Cart from "./cart/Cart.jsx";
+import EventDetails from "./Events/EventDetails.jsx";
 
 
 
@@ -28,11 +30,12 @@ function App() {
         <Route path="/opportunity/:id" element={<OpportunityDetail />} />
         <Route path='/donate' element={<Donate/>} />
         <Route path='/events' element={<Events/>} />
+        <Route path="/events/:id" element={<EventDetails />} />
         <Route path='/feedback' element={<Feedback/>}/>
         <Route path='/your-feedback' element={<UserFeedback/>}/>
         <Route path='/login' element={<Login/>}/>
         <Route path='/sign-up' element={<Register/>}/>
-
+        <Route path='/cart' element={<Cart />} />
       </Routes>
       </main>
       

@@ -1,3 +1,5 @@
+
+
 .donate{
     padding: 5rem;
 }
@@ -30,7 +32,7 @@
     border-radius: 10px;
     text-align: justify;
     gap: 1.5rem;
-    
+    align-items: start;
 }
 
 .donate-item h1{

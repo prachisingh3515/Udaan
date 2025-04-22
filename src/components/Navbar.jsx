@@ -30,6 +30,7 @@ const Navbar = () => {
         </ul>
         
         <div className='action-menu'>
+          <Button to={'/cart'} value={"Browse Cart"} />
           <Button to={"/login"} value={"Login"} />
           <Button to={"/sign-up"} value={"Sign up"} />
         </div>

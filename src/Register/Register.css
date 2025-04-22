@@ -47,7 +47,7 @@
     border-radius: 5px;
     background-color: rgb(196, 229, 245);
     cursor: pointer;
-    border: 1px solid rgb(196, 229, 245);;
+    border: 1px solid rgb(196, 229, 245);
 }
 .register-options{
     display: flex;

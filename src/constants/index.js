@@ -93,68 +93,86 @@ export const features =  [
     }
  ]
 
- export const events=[
-    {
-        img: event1,
-        title: "Saying No to Plastic | Akshaya Patra",
-        location: "Bengaluru",
-    },
-    {
-        img: event5,
-        title: "Blanket distribution | Tammana",
-        location: "Chandigarh",
-    },
-    {
-        img: event2,
-        title: "Children's Day | Akshaya Patra",
-        location: "Hyderabad",
-    },
-    {
-        img: event4,
-        title: "Free Medical Camp| Tammana",
-        location: "Zirakpur",
-    },
-    {
-        img: event3,
-        title: "DaanUtsav| Akshaya Patra",
-        location: "Gurgaon",
-    },
-    {
-        img: event6,
-        title: "Khushi ki Pathshala | Diya India",
-        location: "New Delhi",
-    },
-    {
-        img: event1,
-        title: "Saying No to Plastic | Akshaya Patra",
-        location: "Bengaluru",
-    },
-    {
-        img: event5,
-        title: "Blanket distribution | Tammana",
-        location: "Chandigarh",
-    },
-    {
-        img: event2,
-        title: "Children's Day | Akshaya Patra",
-        location: "Hyderabad",
-    },
-    {
-        img: event4,
-        title: "Free Medical Camp| Tammana",
-        location: "Zirakpur",
-    },
-    {
-        img: event3,
-        title: "DaanUtsav| Akshaya Patra",
-        location: "Gurgaon",
-    },
-    {
-        img: event6,
-        title: "Khushi ki Pathshala | Diya India",
-        location: "New Delhi",
-    },
- ]
+ export const events = [
+  {
+    id: "1",
+    img: event1,
+    title: "Saying No to Plastic | Akshaya Patra",
+    location: "Bengaluru",
+    description: "A drive to eliminate plastic usage and spread awareness among youth.",
+    organizer: "Akshaya Patra Foundation",
+    participants: 120,
+    revenue: 5000,
+    category: "Environment",
+    date: "2025-03-18",
+    volunteersNeeded: true,
+  },
+  {
+    id: "2",
+    img: event5,
+    title: "Blanket distribution | Tammana",
+    location: "Chandigarh",
+    description: "Blankets were distributed to the homeless during winter.",
+    organizer: "Tammana NGO",
+    participants: 85,
+    revenue: 2300,
+    category: "Social Welfare",
+    date: "2025-01-12",
+    volunteersNeeded: false,
+  },
+  {
+    id: "3",
+    img: event2,
+    title: "Children's Day | Akshaya Patra",
+    location: "Hyderabad",
+    description: "Fun and educational activities organized for underprivileged children.",
+    organizer: "Akshaya Patra Foundation",
+    participants: 150,
+    revenue: 8000,
+    category: "Children",
+    date: "2024-11-14",
+    volunteersNeeded: true,
+  },
+  {
+    id: "4",
+    img: event4,
+    title: "Free Medical Camp | Tammana",
+    location: "Zirakpur",
+    description: "Free checkups and medicine distribution in rural areas.",
+    organizer: "Tammana NGO",
+    participants: 200,
+    revenue: 12000,
+    category: "Healthcare",
+    date: "2025-02-22",
+    volunteersNeeded: true,
+  },
+  {
+    id: "5",
+    img: event3,
+    title: "DaanUtsav | Akshaya Patra",
+    location: "Gurgaon",
+    description: "A week-long festival of giving involving food, clothes, and essentials.",
+    organizer: "Akshaya Patra Foundation",
+    participants: 300,
+    revenue: 20000,
+    category: "Charity",
+    date: "2024-10-05",
+    volunteersNeeded: false,
+  },
+  {
+    id: "6",
+    img: event6,
+    title: "Khushi ki Pathshala | Diya India",
+    location: "New Delhi",
+    description: "A joyful learning initiative for slum children.",
+    organizer: "Diya India Foundation",
+    participants: 180,
+    revenue: 9500,
+    category: "Education",
+    date: "2025-04-10",
+    volunteersNeeded: true,
+  },
+];
 
  export const feedback1=[
     {
