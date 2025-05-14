@@ -12,7 +12,7 @@ const Feedback = () => {
       {feedback1.map((item, index) => (
             <div key={index} className='feedback1-item'>
                 
-                <img src={item.profile} height="50px" width="50px" alt="" />
+                <img src={item.profile} height="50px" width="50px" alt=""/>
                 <div className='feedback1-content'>
                   <div>
                   <h1>{item.name}</h1>

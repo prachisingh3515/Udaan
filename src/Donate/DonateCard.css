@@ -1,0 +1,103 @@
+.donatecard-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 40;
+  }
+  
+  .donatecard-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    max-width: 90vw;
+    overflow: auto;
+  }
+  
+  .donatecard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .donatecard-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .donatecard-close {
+    cursor: pointer;
+    background-color: white;
+    border-radius: 0.375rem;
+    padding: 0.25rem;
+    transition: all 0.15s ease-in-out;
+  }
+  
+  .donatecard-close:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+    fill: white;
+  }
+  
+  .donatecard-subtitle {
+    margin-bottom: 1.75rem;
+    color: #64748b;
+    font-size: 1rem;
+  }
+  
+  .donatecard-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+  
+  .donatecard-field {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .donatecard-field label {
+    color: #334155;
+    font-size: 1rem;
+  }
+  
+  .donatecard-field input,
+  .donatecard-field select,
+  .donatecard-field textarea {
+    padding: 0.5rem;
+    border: 1px solid #475569;
+    border-radius: 0.375rem;
+    width: 18rem;
+  }
+  
+  .donatecard-field textarea {
+    height: 5rem;
+    max-width: 70%;
+  }
+  
+  .donatecard-button {
+    display: block;
+    margin: 1rem auto 0;
+    padding: 0.5rem 1rem;
+    background: linear-gradient(to right, #18181b, #0f172a);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    transition: background 0.3s ease;
+  }
+  
+  .donatecard-button:hover {
+    background: linear-gradient(to right, #52525b, #334155);
+  }
+  
